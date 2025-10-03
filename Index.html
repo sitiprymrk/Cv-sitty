@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Profesional - Siti Rahma Prayamark</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+
+        .header-content {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin: 5px 0;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #667eea;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .profile-text {
+            line-height: 1.8;
+            text-align: justify;
+            color: #333;
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
+            padding-left: 20px;
+            border-left: 3px solid #764ba2;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #764ba2;
+            font-size: 1.1em;
+        }
+
+        .company {
+            font-weight: 600;
+            color: #555;
+        }
+
+        .date {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .location {
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .skill-category h4 {
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skill-category li {
+            padding: 5px 0;
+            color: #555;
+        }
+
+        .skill-category li:before {
+            content: "▹ ";
+            color: #764ba2;
+            font-weight: bold;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .experience-header {
+                flex-direction: column;
+            }
+            
+            .header {
+                flex-direction: column;
+            }
+            
+            .profile-photo {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://customer-assets.emergentagent.com/job_profesional-cv/artifacts/18sv2e7u_IMG_5378.jpeg" alt="Profile Photo" class="profile-photo">
+            <div class="header-content">
+                <h1>SITTY</h1>
+                <p>Office Administrator & Digital Marketing Specialist</p>
+                <p>Mahasiswa D3 Rekam Medis dan Informasi Kesehatan</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        📧 <a href="mailto:jobdeskm@gmail.com">jobdeskm@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        📱 <a href="https://wa.me/6282292023447" target="_blank">+62 822-9202-3447</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="margin-right: 3px;">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <a href="https://instagram.com/personal_sitty" target="_blank">@personal_sitty</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="white" style="margin-right: 3px;">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        <a href="https://www.linkedin.com/in/sitiprayamark" target="_blank">sitiprayamark</a>
+                    </div>
+                    <div class="contact-item">📍 Gorontalo, Indonesia</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Profil Profesional</h2>
+                <p class="profile-text">
+                    Mahasiswa D3 Rekam Medis dan Informasi Kesehatan di STIKES Bakti Nusantara Gorontalo dengan pengalaman beragam di bidang administrasi kesehatan dan digital marketing. Terampil menggunakan Microsoft Office dengan latar belakang berpengalaman sebagai digital marketing produk kecantikan, pramuniaga, dan penyedia jasa ketik. Memiliki keahlian dalam pengelolaan pembagian hasil/gaji, pendataan stok di klinik, desain grafis untuk iklan dan promosi, serta aktif sebagai host live di berbagai platform media sosial. Pengalaman organisasi di bidang esports telah melatih kemampuan manajemen waktu, koordinasi tim, dan negosiasi. Siap berkontribusi dengan kemampuan multitasking, detail-oriented, dan interpersonal yang kuat.
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Pendidikan</h2>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Mahasiswa D3 Rekam Medis dan Informasi Kesehatan</div>
+                            <div class="company">STIKES Bakti Nusantara Gorontalo</div>
+                        </div>
+                        <div class="date">2022 - Sekarang</div>
+                    </div>
+                    <div class="location">Gorontalo, Indonesia</div>
+                    <div class="description" style="margin-top: 8px; font-style: italic; color: #666;">
+                        Sedang menempuh pendidikan Diploma III
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Pengalaman Kerja & Magang</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Medical Record</div>
+                            <div class="company">RSUD ODSK</div>
+                        </div>
+                        <div class="date">Agustus 2024 (1 bulan)</div>
+                    </div>
+                    <div class="location">Manado, Sulawesi Utara</div>
+                    <div class="description">
+                        <strong>Manajemen Unit Kerja Rekam Medis dan Informasi Kesehatan:</strong>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li>Perencanaan Sumber Daya Manusia Unit kerja RMIK</li>
+                            <li>Pengorganisasian Unit Kerja RMIK</li>
+                            <li>Perencanaan Fasilitas di unit kerja RMIK</li>
+                        </ul>
+                        <strong>Manajemen Mutu Rekam Medis dan Informasi Kesehatan:</strong>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li>Quality Assurance pelayanan rekam medis</li>
+                            <li>Konsep manajemen Resiko di fasilitas pelayanan kesehatan</li>
+                            <li>Standar pelayanan minimal rumah sakit & Akreditasi rumah sakit (Standar KARS 2012)</li>
+                        </ul>
+                        <strong>Keahlian:</strong> Medical Coding, Electronic Medical Record (EMR), Administration, Statistical Data Analysis
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Medical Record</div>
+                            <div class="company">RSUD Kab. Kediri</div>
+                        </div>
+                        <div class="date">November 2024 (1 bulan)</div>
+                    </div>
+                    <div class="location">Kota Kediri, Jawa Timur</div>
+                    <div class="description">
+                        <strong>Manajemen RMIK:</strong> Konsep sistem pembiayaan, Asuransi kesehatan, Reimbursement INA CBG's, Implementasi Sistem Pembiayaan di Indonesia, Billing system
+                        <br><strong>Manajemen Mutu Rekam Medis:</strong> Analisis kuantitatif & kualitatif
+                        <br><strong>Klasifikasi dan Kodifikasi:</strong> Neoplasma, Penyakit Infeksi, Cedera/Injury, Keracunan/Poisoning, Penyebab Luar/Eksternal Cause, serta Faktor-faktor terkait masalah kesehatan
+                        <br><strong>Keahlian:</strong> Administration, Electronic Medical Record (EMR), Medical Coding, Statistical Data Analysis
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Medical Record</div>
+                            <div class="company">RS. BHAYANGKARA GORONTALO</div>
+                        </div>
+                        <div class="date">Januari 2024 (1 bulan)</div>
+                    </div>
+                    <div class="location">Gorontalo, Indonesia</div>
+                    <div class="description">
+                        <strong>MIK – III:</strong> Memahami Media dokumen Rekam medis (paper, Komputer, Website), isi dan struktur Rekam medis, prinsip desain formulir SIK – II
+                        <br><strong>Konsep dasar biostatistik:</strong> Statistik dan administrasi, Statistik data klinis dan case-mix, Sistem Informasi Rumah Sakit & Manajemen Puskesmas
+                        <br><strong>KKPMT – III - Klasifikasi dan Kodifikasi Penyakit:</strong> Sistem Panca Indera, Sistem Saraf, Gangguan Mental
+                        <br><strong>Keahlian:</strong> Electronic Medical Record (EMR), Medical Coding, Statistical Data Analysis, Accounting, Administration
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Medical Record</div>
+                            <div class="company">PUSKESMAS SIPATANA GORONTALO</div>
+                        </div>
+                        <div class="date">Juli 2023 (1 bulan)</div>
+                    </div>
+                    <div class="location">Gorontalo, Indonesia</div>
+                    <div class="description">
+                        <strong>MIK – II:</strong> Memahami/mengenal RMIK dalam pelayanan kesehatan, Mampu mengolah Sistem Informasi Kesehatan (RMIK)
+                        <br><strong>KKPMT – II - Klasifikasi dan Kodifikasi Penyakit:</strong> Sistem Mukulosceletal, Sistem Respirasi, Sistem Cardiovascular, Sistem Pencernaan, Sistem Perkemihan, Sistem Endokrin
+                        <br><strong>Keahlian:</strong> Electronic Medical Record (EMR), Administration
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Office Administrator</div>
+                            <div class="company">Dental Care Clinic</div>
+                        </div>
+                        <div class="date">Mei 2023 - Sekarang (2 tahun 6 bulan)</div>
+                    </div>
+                    <div class="location">Telaga, Gorontalo - Gabungan</div>
+                    <div class="description">
+                        Mengelola administrasi klinik, pembagian hasil/gaji, dan pendataan stok dengan akurat dan efisien.
+                        <br><strong>Keahlian:</strong> Office Administration
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Pramuniaga</div>
+                            <div class="company">Erbyshop.gtlo</div>
+                        </div>
+                        <div class="date">Maret 2024 - April 2024 (2 bulan)</div>
+                    </div>
+                    <div class="location">Gorontalo, Indonesia</div>
+                    <div class="description">
+                        Memberikan pelayanan pelanggan yang excellent dan mengelola penjualan produk.
+                        <br><strong>Keahlian:</strong> Pemasaran, Penjualan, Sales
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Relawan</div>
+                            <div class="company">TIKK Stikes Bakti Nusantara Gorontalo</div>
+                        </div>
+                        <div class="date">Juli 2024 (1 bulan)</div>
+                    </div>
+                    <div class="location">Desa bongongoayu, Kecamatan Boliyohuto, Kabupaten Gorontalo</div>
+                    <div class="description">
+                        Menjalankan program dari kampus untuk berbakti kepada masyarakat melalui edukasi kesehatan dan kegiatan sosial.
+                        <br><strong>Keahlian:</strong> Komunikasi, Edukasi, Sosial
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Pengalaman Organisasi & Kepanitiaan</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Assistant</div>
+                            <div class="company">ESI Gorontalo (Esports Organizer)</div>
+                        </div>
+                        <div class="date">Juli 2022 - Desember 2023 (1 tahun 6 bulan)</div>
+                    </div>
+                    <div class="location">Gorontalo, Indonesia</div>
+                    <div class="description">
+                        Mengelola jadwal, persiapan rapat, dan menjalin kerjasama dengan pihak pemerintah serta sponsor untuk event esports. Berperan dalam koordinasi tim dan negosiasi partnership.
+                        <br><strong>Keahlian:</strong> Office Administration, Asisten
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Sponsorship</div>
+                            <div class="company">ESI Gorontalo</div>
+                        </div>
+                        <div class="date">Juni 2022 - Desember 2023 (1 tahun 7 bulan)</div>
+                    </div>
+                    <div class="location">Kota Gorontalo, Gorontalo</div>
+                    <div class="description">
+                        Membangun sinergi strategis melalui kemitraan resmi antara Telkomsel dan ESI Gorontalo dalam mendukung pengembangan ekosistem eSport lokal. Kolaborasi ini memperkuat komitmen kami dalam mendorong digitalisasi dan pertumbuhan ekonomi kreatif di Gorontalo, sekaligus memberikan wadah inovatif bagi talenta muda untuk berprestasi dan berkembang.
+                        <br><strong>Keahlian:</strong> Sponsorship, Komunikasi
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="job-title">Caster (Host Live & Commentator)</div>
+                            <div class="company">ESI Gorontalo & Gerindra</div>
+                        </div>
+                        <div class="date">Juni 2021 - Desember 2023</div>
+                    </div>
+                    <div class="location">Kota Gorontalo, Gorontalo</div>
+                    <div class="description">
+                        Menjadi host live streaming dan commentator untuk berbagai event esports tournament di Gorontalo, termasuk event Bhayangkara dan event dari Partai Gerindra. Mengembangkan kemampuan komunikasi publik dan improvisasi.
+                        <br><strong>Keahlian:</strong> Komunikasi
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Keahlian & Kompetensi</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Administrasi & Office</h4>
+                        <ul>
+                            <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                            <li>Office Administration</li>
+                            <li>Data Entry & Management</li>
+                            <li>Pengelolaan Gaji & Stok</li>
+                            <li>Statistical Data Analysis</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Rekam Medis & Kesehatan</h4>
+                        <ul>
+                            <li>Electronic Medical Record (EMR)</li>
+                            <li>Medical Coding (ICD-10, ICD-9)</li>
+                            <li>Manajemen RMIK</li>
+                            <li>Quality Assurance</li>
+                            <li>Sistem Informasi Kesehatan</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Digital Marketing & Media</h4>
+                        <ul>
+                            <li>Digital Marketing</li>
+                            <li>Desain Grafis (Iklan & Promosi)</li>
+                            <li>Host Live (TikTok, Instagram, Facebook)</li>
+                            <li>Social Media Management</li>
+                            <li>Content Creation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <ul>
+                            <li>Komunikasi Efektif</li>
+                            <li>Multitasking</li>
+                            <li>Detail-Oriented</li>
+                            <li>Manajemen Waktu</li>
+                            <li>Koordinasi Tim</li>
+                            <li>Negosiasi & Partnership</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Layanan Tambahan</h2>
+                <div class="description">
+                    <ul style="margin-left: 20px; line-height: 1.8;">
+                        <li>Jasa Ketik Dokumen</li>
+                        <li>Host Live Streaming untuk Penjualan Produk (TikTok, Instagram, Facebook)</li>
+                        <li>Desain Grafis untuk Iklan dan Promosi</li>
+                        <li>Digital Marketing Produk Kecantikan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
